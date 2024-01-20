@@ -1,5 +1,5 @@
 from typing import Dict, Tuple, List, Callable
-from lib.validators import is_len, contains_oneof
+from bin.validators import is_len, contains_oneof
 
 # User input config.
 UserParam = Tuple[str, List[Tuple[Callable, List]]]
